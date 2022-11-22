@@ -3,8 +3,6 @@ A wrapper for PHP Glide/composer. Built for >= php@7.2 and >=php@8.0.
 
 *A build off of the no longer maintained [Aginevs wp-glide wrapper](https://github.com/aginev/).*
 
-## **This is a WIP build**
-
 ## **Install**
 
 ```src
