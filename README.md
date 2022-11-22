@@ -1,12 +1,7 @@
 # WP Glide
 A wrapper for PHP Glide/composer. Built for >= php@7.2. A build off of [Aginevs wp-glide wrapper](https://github.com/aginev/).
 
-<br>
-
 ## **This is a WIP build**
-------------------
-
-<br>
 
 ## **Install**
 
@@ -31,27 +26,24 @@ $wpGlide = wp_glide();
 You should config WpGlide at least once in your application. The init method could have four parameters and all of them are not required.
 
 ```php
-$wpGlide->init(
+$wpGlide = wp_glide()->init([
     // Glide server config. See: http://glide.thephpleague.com/2.0/config/setup/
-    [
-        // Image driver
-        'driver'     => 'imagick',
-        // Watermarks path
-        'watermarks' => new \League\Flysystem\Filesystem(new \League\Flysystem\Adapter\Local(get_template_directory() . '/assets/img')),
-    ],
-    
-    // Base path. By default set to 'img/' and the final URL will look like so: http://example.com/BASE-PATH/SIZE-SLUG/image.jpg.
-    'img/',
-    
-    // Path to WordPress upload directory. If not set the default upload directory will be used.
-    'upload_path',
-    
-    // Cache path. If not set the cache will be placed in cache directory at the root of the default upload path.
-    'cache_path'
-);
-
-// Or
-$wpGlide = wp_glide()->init([...]);
+  [
+    // Image driver
+    'driver'     => 'imagick',
+    // Watermarks path
+    'watermarks' => new \League\Flysystem\Filesystem(new \League\Flysystem\Adapter\Local(get_template_directory() . '/assets/img')),
+  ],
+  
+  // Base path. By default set to 'img/' and the final URL will look like so: http://example.com/BASE-PATH/SIZE-SLUG/image.jpg.
+  'img/',
+  
+  // Path to WordPress upload directory. If not set the default upload directory will be used.
+  'upload_path',
+  
+  // Cache path. If not set the cache will be placed in cache directory at the root of the default upload path.
+  'cache_path'
+]);
 ```
 
 ### **Register image sizes**
