@@ -1,0 +1,33 @@
+{
+  "name": "nathan-degraaf/wp-glide",
+  "description": "A wrapper for PHP Glide through Composer",
+  "keywords": [
+    "nathan",
+    "php-glide-for-wordpress",
+    "php",
+    "wordpress",
+    "php-8",
+    "composer"
+  ],
+  "homepage": "https://github.com/Nathan-deGraaf/wp-glide",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nathan de Graaf",
+      "email": "degraaf@thinkflipp.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WPGlide\\": "source/"
+    },
+    "files": [
+      "source/helper.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.2",
+    "league/glide": "^2.2"
+  }
+}
