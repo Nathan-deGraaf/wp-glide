@@ -1,12 +1,14 @@
 # WP Glide
-A wrapper for PHP Glide/composer. Built for >= php@7.2. A build off of [Aginevs wp-glide wrapper](https://github.com/aginev/).
+A wrapper for PHP Glide/composer. Built for >= php@7.2 including >=php@8.0.
+
+*A build off of the no longer maintained [Aginevs wp-glide wrapper](https://github.com/aginev/).*
 
 ## **This is a WIP build**
 
 ## **Install**
 
 ```src
-$ composer require nathan-degraaf/wp-glide
+composer require nathan-degraaf/wp-glide
 ```
 
 ## **Usage**
