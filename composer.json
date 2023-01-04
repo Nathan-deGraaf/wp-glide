@@ -28,6 +28,6 @@
   },
   "require": {
     "php": "^7.2 | >=8.0",
-    "league/glide": "^2.2.2"
+    "league/glide": "^1.2"
   }
 }
