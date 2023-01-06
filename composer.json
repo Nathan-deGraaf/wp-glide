@@ -23,7 +23,7 @@
       "WpGlide\\": "source/"
     },
     "files": [
-      "source/helper.php"
+      "source/helpers.php"
     ]
   },
   "require": {
