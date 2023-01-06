@@ -20,10 +20,10 @@
   ],
   "autoload": {
     "psr-4": {
-      "WpGlide\\": "source/"
+      "WpGlide\\": "src/"
     },
     "files": [
-      "source/helpers.php"
+      "src/helpers.php"
     ]
   },
   "require": {
